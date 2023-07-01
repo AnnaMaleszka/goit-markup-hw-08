@@ -1,0 +1,11 @@
+.header {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  &__logo {
+    margin-right: 93px;
+  }
+  &__contact {
+    margin-left: auto;
+  }
+}

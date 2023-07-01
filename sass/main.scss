@@ -1,0 +1,51 @@
+@import "./utils/_variables.scss";
+@import "./utils/_transitions.scss";
+@import "./utils/_decoration.scss";
+@import "./utils/_margins.scss";
+@import "./components/_container.scss";
+@import "./components/_section.scss";
+@import "./components/_body.scss";
+@import "./components/_form.scss";
+@import "./components/_logo.scss";
+@import "./components/_page-description.scss";
+@import "./components/_buttons.scss";
+@import "./components/_navigation.scss";
+@import "./components/_social-media-icons.scss";
+@import "./components/_checkbox.scss";
+@import "./components/_line.scss";
+@import "./components/_contact.scss";
+@import "./components/_features.scss";
+@import "./components/_modal-window.scss";
+@import "./components/_footer.scss";
+@import "./components/_portfolio.scss";
+@import "./components/_grid.scss";
+@import "./components/_label.scss";
+@import "./components/_header.scss";
+@import "./components/_team.scss";
+@import "./components/_clients.scss";
+// @media screen and (min-width: 480px) {
+//   .container {
+//     max-width: 480px;
+//   }
+//   body {
+//     background-color: pink;
+//   }
+// }
+
+// @media screen and (min-width: 768px) {
+//   .container {
+//     max-width: 768px;
+//   }
+//   body {
+//     background-color: blue;
+//   }
+// }
+
+// @media screen and (min-width: 1200px) {
+//   .container {
+//     max-width: 1200px;
+//   }
+//   body {
+//     background-color: green;
+//   }
+// }

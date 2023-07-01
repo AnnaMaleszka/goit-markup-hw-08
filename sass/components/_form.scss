@@ -1,0 +1,85 @@
+
+.form {
+  padding: 40px;
+  &__fieldset {
+    border-color: transparent;
+    padding: 0;
+  }
+    &__label {
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      &:hover,
+      &:focus-within {
+        fill: #2196f3;
+        border-color: #2196f3;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+      }
+    }
+    &__details {
+      font-size: 14px;
+      line-height: 1.17;
+      letter-spacing: 0.01em;
+      color: #757575;
+    }
+    &__icons {
+      width: 12px;
+      height: 12px;
+      position: absolute;
+      top: 35px;
+      left: 12px;
+    }
+    &__input-border {
+      height: 40px;
+      width: 448px;
+      border: 1px solid rgba(33, 33, 33, 0.2);
+      border-radius: 4px;
+      background-color: transparent;
+      position: relative;
+      align-items: center;
+      margin-top: 4px;
+      margin-bottom: 10px;
+      padding-left: 40px;
+      &:hover,
+      &:focus-within {
+        outline: 0;
+        border-color: #2196f3;
+      }
+    }
+    &__textarea-comment {
+      border: 0px;
+      border: 1px solid rgba(33, 33, 33, 0.2);
+      border-radius: 4px;
+      height: 120px;
+      width: 448px;
+      resize: none;
+      margin-top: 4px;
+      &:hover,
+      &:focus-within {
+        outline: 0;
+        border-color: #2196f3;
+      }
+    }
+    &__comment {
+      color: rgba(117, 117, 117, 0.5);
+      font-size: 12px;
+      line-height: 1.17;
+      letter-spacing: 00.01em;
+      padding-left: 16px;
+      padding-top: 12px;
+    }
+  &__title {
+    margin-bottom: 12px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.15;
+    letter-spacing: 0.03em;
+    color: #212121;
+  }
+}
+
+
+
+

@@ -1,0 +1,28 @@
+.clients {
+  &__border {
+    margin-bottom: 94px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 92px;
+    border: 1px solid getColors("iconsColor");
+    border-radius: 4px;
+    transition-property: border-color;
+    @include transitions(border-color);
+    &:hover,
+    &:focus {
+      border-color: getColors("logoColor");
+    }
+  }
+  &__icon {
+    width: 170px;
+    height: 92px;
+    fill: getColors("iconsColor");
+    @include transitions(fill);
+    &:hover,
+    &:focus {
+      fill: getColors("logoColor");
+    }
+  }
+}

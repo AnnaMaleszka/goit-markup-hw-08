@@ -1,0 +1,35 @@
+// paleta kolorów, czcionki
+
+$mainFont: "Roboto", sans-serif;
+
+$logoFont: "Raleway", sans-serif;
+
+$Colors: (
+  "bodyBackgroundColor": #ffffff,
+  "logoColor": #2196f3,
+  "sectionBackgroundColor": #f5f4fa,
+  "footerBackgroundColor": #2f303a,
+  "iconsColor": #afb1b8,
+  "blackFontColor": #000000,
+  "blackParagraph": #212121,
+  "grayFontColor": #757575,
+  "whiteFontColor": #ffffff,
+  "footerContactColor": #ffffff99,
+);
+
+@function getColors($key) {
+  @return map-get($Colors, $key);
+}
+
+$fontSizes: (
+  "xs": 14px,
+  "s": 16px,
+  "m": 18px,
+  "l": 26px,
+  "xl": 36px,
+  "xxl": 44px,
+);
+
+@function getFontSize($key) {
+  @return map-get($fontSizes, $key);
+}

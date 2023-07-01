@@ -1,0 +1,17 @@
+.logo {
+  text-decoration: $textDecoration;
+  margin-right: 93px;
+  font-family: $logoFont;
+  font-weight: 700;
+  font-size: getFontSize("l");
+  line-height: 1.25;
+  &__studio {
+    color: getColors("blackFontColor");
+    &--light {
+      color: getColors("whiteFontColor");
+    }
+  }
+  &__web {
+    color: getColors("logoColor");
+  }
+}

@@ -1,0 +1,12 @@
+.section {
+  padding-top: 94px;
+
+  &__heading {
+    font-size: getFontSize("xl");
+    font-weight: 700;
+    line-height: 0.85;
+    color: getColors(blackParagraph);
+    text-align: center;
+    margin-bottom: 50px;
+  }
+}
