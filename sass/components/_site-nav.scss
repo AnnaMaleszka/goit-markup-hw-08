@@ -1,0 +1,13 @@
+.site-nav {
+  height: 80px;
+  align-items: center;
+  border-bottom: 1px solid #ececec;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 428px) {
+  ul {
+    display: none;
+  }
+}

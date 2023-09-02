@@ -1,12 +1,13 @@
-
 .footer {
   background-color: getColors("footerBackgroundColor");
   padding: 60px 0;
+  text-align: center;
   &__box {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    gap: 70px;
+    // display: flex;
+    // flex-direction: row;
+    // justify-content: flex-start;
+    // gap: 70px;
+    text-align: center;
   }
   &__address {
     font-size: 14px;
@@ -15,15 +16,17 @@
     color: #ffffff;
     margin-top: 20px;
     margin-bottom: 9px;
+    place-items: center;
   }
   &__navigation {
-  display: block;
+    // display: block;
   }
   &__join-us {
     color: #ffffff;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.17;
+    margin-top: 60px;
   }
   &__social-media-icons {
     margin-top: 16px;
@@ -47,8 +50,7 @@
     border-color: rgba(255, 255, 255, 0.3);
     border-radius: 4px;
     background: transparent;
-    padding-left: 16px;
-    margin-right: 12px;
+    margin-bottom: 20px;
     color: #ffffff;
 
     &:focus {

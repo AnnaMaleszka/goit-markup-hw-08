@@ -1,6 +1,6 @@
 .contact {
   display: flex;
-  list-style-type: $listStyle;
+  list-style-type: none;
   gap: 50px;
   &__column {
     display: block;
@@ -31,5 +31,17 @@
       fill: getColors("logoColor");
       outline: 0;
     }
+  }
+}
+
+@media (max-width: 428px) {
+  .contact {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  .contact {
+    display: block;
   }
 }

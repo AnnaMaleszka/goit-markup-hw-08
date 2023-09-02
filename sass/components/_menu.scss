@@ -1,0 +1,15 @@
+.menu {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  &__link {
+    padding: 10px;
+    color: inherit;
+    text-decoration: none;
+    &:hover,
+    &:focus {
+      border-color: getColors("logoColor");
+    }
+  }
+}

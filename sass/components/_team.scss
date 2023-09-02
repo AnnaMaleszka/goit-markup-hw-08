@@ -3,6 +3,7 @@
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   background-color: #ffffff;
+  list-style: none;
   &__name {
     line-height: 1.14;
     color: getColors("blackFontColor");
@@ -20,4 +21,9 @@
     font-size: getFontSize("s");
     text-align: center;
   }
+}
+
+.team img {
+  width: 100%;
+  height: auto;
 }
