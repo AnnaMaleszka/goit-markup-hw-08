@@ -5,3 +5,20 @@
   padding-left: 15px;
   margin: 0 auto;
 }
+
+/* TABLET */
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    margin-inline: auto;
+    padding-inline: 16px;
+  }
+}
+
+/* DESKTOP */
+
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
+}

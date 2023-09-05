@@ -1,0 +1,18 @@
+.header-section {
+  max-width: 428px;
+  margin-inline: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .header-section {
+    max-width: 768px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .header-section {
+    max-width: 1200px;
+    height: auto;
+    margin-block: 0;
+  }
+}
