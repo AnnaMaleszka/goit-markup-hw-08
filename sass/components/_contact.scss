@@ -4,9 +4,6 @@
   flex-direction: column;
   gap: 12px;
 
-  &__column {
-    display: block;
-  }
   &__link {
     text-decoration: $textDecoration;
     font-weight: 500;
@@ -41,5 +38,8 @@
     display: flex;
     flex-direction: row;
     gap: 50px;
+    &__column {
+      display: block;
+    }
   }
 }

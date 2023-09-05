@@ -25,14 +25,16 @@
         background-color: getColors("logoColor");
       }
     }
-    &__svg {
-      width: 44px;
-      height: 44px;
-    }
+  }
+  &__svg {
+    width: 44px;
+    height: 44px;
   }
 }
+
 @media (min-width: 1200px) {
   .socials__footer {
-    align-items: baseline;
+    display: flex;
+    justify-content: flex-start;
   }
 }

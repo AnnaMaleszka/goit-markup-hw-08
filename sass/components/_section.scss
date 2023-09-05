@@ -1,7 +1,7 @@
 .section {
   margin-bottom: 60px;
   margin-top: 60px;
-  max-width: 428px;
+  // max-width: 428px;
   margin-inline: auto;
 
   &__heading {
@@ -17,7 +17,7 @@
     background: getColors("sectionBackgroundColor");
     padding-bottom: 120px;
     padding-top: 60px;
-    max-width: 768px;
+    // max-width: 768px;
     display: flex;
     justify-content: center;
   }
@@ -25,26 +25,26 @@
 
 @media screen and (min-width: 768px) {
   .section {
-    max-width: 768px;
+    //   max-width: 768px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .section {
-    max-width: 1200px;
+    // max-width: 1200px;
     height: auto;
   }
 }
 
 @media screen and (min-width: 768px) {
   .section__team {
-    max-width: 1200px;
+    // max-width: 1200px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .section__team {
-    max-width: 1440px;
+    // max-width: 1440px;
     height: auto;
   }
 }

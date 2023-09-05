@@ -3,14 +3,19 @@
   justify-content: center;
   flex-direction: column;
   gap: 30px;
-  justify-content: center;
   max-width: 468px;
+  align-items: center;
+  margin: 0 auto;
   &__clients {
     display: grid;
     grid-template-columns: repeat(2, 210px);
+    // display: flex;
+    // flex-wrap: wrap;
     justify-content: center;
     column-gap: 30px;
     row-gap: 30px;
+    align-items: center;
+    margin: 0 auto;
   }
 }
 
@@ -65,5 +70,12 @@
       grid-column: 3;
       text-align: start;
     }
+  }
+}
+
+@media (min-width: 1200px) {
+  .grid__enter {
+    display: flex;
+    gap: 10px;
   }
 }
