@@ -18,16 +18,21 @@
     &--dark {
       fill: getColors("whiteFontColor");
       background-color: #ffffff1a;
-      margin-bottom: 60px;
+
+      &:hover,
+      &:focus {
+        fill: getColors("whiteFontColor");
+        background-color: getColors("logoColor");
+      }
     }
-    &:hover,
-    &:focus {
-      fill: getColors("whiteFontColor");
-      background-color: getColors("logoColor");
+    &__svg {
+      width: 44px;
+      height: 44px;
     }
   }
-  &__svg {
-    width: 44px;
-    height: 44px;
+}
+@media (min-width: 1200px) {
+  .socials__footer {
+    align-items: baseline;
   }
 }

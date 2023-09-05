@@ -4,7 +4,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 170px;
+    width: 210px;
     height: 92px;
     border: 1px solid getColors("iconsColor");
     border-radius: 4px;
@@ -24,5 +24,16 @@
     &:focus {
       fill: getColors("logoColor");
     }
+  }
+}
+
+@media (min-width: 768px) {
+  .clients__border {
+    width: 226px;
+  }
+}
+@media (min-width: 1200px) {
+  .clients__border {
+    width: 170px;
   }
 }
